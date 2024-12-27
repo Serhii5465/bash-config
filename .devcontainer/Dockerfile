@@ -1,4 +1,4 @@
-FROM debian:12
+FROM debian:12.8
 
 ENV USER=debian
 ARG PATH_SSH_KEYS=/home/${USER}/.ssh
